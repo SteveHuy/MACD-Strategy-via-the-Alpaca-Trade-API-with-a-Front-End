@@ -1,0 +1,8 @@
+flask
+python-dotenv
+alpaca-trade-api
+tabulate
+ta
+pandas
+matplotlib
+numpy
