@@ -1,0 +1,37 @@
+.button_container{
+    display: flex;
+    justify-content: center;
+}
+
+.button_execute {
+    font-family: verdana;
+    background-color: rgb(54, 67, 71);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 300px; 
+    height: 80px; 
+    font-weight: bold;
+    font-size: 40px;
+
+  }
+
+.button_execute:hover {
+background-color: rgb(98, 211, 211);
+}
+
+.text_container{
+    text-align:center;
+}
+.text{
+    font-family: verdana;
+
+}
+
+.text_warning{
+    font-family: verdana;
+    color: red;
+}

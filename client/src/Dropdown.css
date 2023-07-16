@@ -1,0 +1,97 @@
+.dropdown_container {
+
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+.dropdown{
+    font-family: verdana;
+    width: 1500px;
+    height: 40px; 
+    text-align: center;
+
+}
+
+
+  .button_container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.button_sell {
+    font-family: verdana;
+    background-color: rgb(54, 67, 71);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 150px; 
+    height: 35px; 
+    font-weight: bold;
+    align-items: left;
+  }
+
+.button_sell:hover {
+background-color: rgb(206, 52, 52);
+}
+
+
+.button_buy {
+    font-family: verdana;
+    background-color: rgb(54, 67, 71);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 150px; 
+    height: 35px; 
+    font-weight: bold;
+    align-items: right;
+
+  }
+
+.button_buy:hover {
+background-color: rgb(35, 199, 48);
+}
+
+
+
+.button_stats {
+    font-family: verdana;
+    background-color: rgb(54, 67, 71);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 150px; 
+    height: 35px; 
+    font-weight: bold;
+    align-items: right;
+   
+}
+
+.button_stats:hover {
+    background-color: rgb(98, 211, 211);
+    }
+
+.stats_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.message_container{
+  display:flex;
+  justify-content: center;
+}
+
+.text{
+  font-family: verdana;
+}

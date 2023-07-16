@@ -1,0 +1,29 @@
+
+
+h1{
+    color: black;
+    font-family: verdana;
+    font-size: 300%;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    font-family: verdana;
+    font-size: 200%;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
+.describe{
+    font-family: verdana;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Adjust the height as needed */
+    text-align: center;
+
+}
+

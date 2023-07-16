@@ -1,0 +1,28 @@
+.button_container{
+    display: flex;
+    justify-content: center;
+}
+
+.button_stat {
+    font-family: verdana;
+    background-color: rgb(54, 67, 71);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 150px; 
+    height: 35px; 
+    font-weight: bold;
+
+  }
+
+.button_stat:hover {
+background-color: rgb(98, 211, 211);
+}
+
+.text{
+    font-family: verdana;
+
+}

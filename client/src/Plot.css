@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.generate_button{
+    font-family: verdana;
+    background-color: rgb(54, 67, 71);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    align-items: center;
+    font-size: 32px;
+}
+
+.generate_button:hover {
+    background-color: rgb(98, 211, 211);
+    }
+
+.load_button{
+    font-family: verdana;
+    background-color: rgb(54, 67, 71);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    align-items: center;
+    font-size: 16px;
+  
+}
+
+.load_button:hover {
+    background-color: rgb(98, 211, 211);
+    }
+
+.button_image {
+  width: 50px; /* Adjust the width as desired */
+  height: 10px; /* Maintain aspect ratio */
+  padding:10px 20px;
+}
